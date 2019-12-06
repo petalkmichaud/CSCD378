@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reader Board</title>
+    <link rel="stylesheet" href="readerBoard.css">
+    <script src="readerBoard.js"></script>
+</head>
+<body>
+<div class="container topContainer">
+    <div id="titleBar" class="container titleBarContainer">
+        <label class="title">STA Bus Departures</label>
+        <label class="titleTime" id="currentTime"></label>
+    </div>
+    <div id="nextDepartureContainer" class="container nextDepartureContainer">
+        <div class="nextDepartureTitle">
+            <label class="title">Next Departures</label>
+        </div>
+        <div id="nextDeparture" class="container nextDepartureItems"></div>
+    </div>
+    <div class="container futureDeparturesContainer">
+        <table id= "tab" class="futureDeparturesTable">
+                    <tr id="tableHeader">
+                            <th>Route</th>
+                            <th>Arial Time</th>
+                            <th>Departure Time</th>
+                    </tr>
+                    
+            
+        </table>
+    </div>
+</div>
+</body>
+</html>
